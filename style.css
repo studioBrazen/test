@@ -1,0 +1,794 @@
+/* ///////// Fonts ///////////// */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+/* ////////////////////////// */
+
+
+/* ////////// C O L O R S //////////// 
+
+orange: #ff704a
+pink: #ff47b0
+purple: #ba78cf
+
+*/
+
+body{margin:0; background: #f6eff6;}
+
+.all{
+  width:100vw;
+  height:100vh;
+  background-image:url("https://cdn.glitch.global/7fab02a8-640b-4599-a757-0e7da5a413b8/CivicLove_Toolkit_bg.jpg?v=1692633423146");
+  background-size:cover;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+}
+
+p2{
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    color: #ff47b0;
+}
+
+.buttons{
+  position: fixed;
+  display: flex;
+  height: 9vw;
+  bottom: 8vh;
+  width: 55vw; 
+  left: 22.5vw;
+}
+
+/* H O M E */
+
+.logo img{
+      width: 90vw;
+    margin-left: 5vw;
+}
+
+#home {
+  height:100vh;
+  width:100vw;
+  background-image:url("https://cdn.glitch.global/7fab02a8-640b-4599-a757-0e7da5a413b8/MP_civicLove_IG_SocialMedia2023_PostBG.png?v=1692633995012");
+  background-size:cover;
+}
+
+.logoStack{
+  width:95vw;
+  position: absolute;
+  bottom: 2vw;
+  left:2.5vw;
+}
+
+#home h1{
+text-align: center;
+    width: 40vw;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    border-top: 1px solid;
+    margin: 8vh 30vw;
+}
+
+#home h2{
+  text-align:center;
+  width: 40vw;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size:1em;
+  margin:8vh 28vw;
+  background:#ba78cf;
+  padding:2vw;
+  border:1px solid white;
+  border-radius:5vw;
+  
+}
+
+.logo{
+  padding-top: 20vw;
+}
+
+
+/* A B O U T */
+
+#about h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #ff704a;
+  font-size:1.6em;
+  padding-top: 28vw;
+}
+
+#about h2 {
+  font-family: 'Montserrat', sans-serif;
+  color:#ff47b0;
+  font-size:1.1em;
+  padding-top:4vw;
+}
+
+#about p{
+  font-family: 'Montserrat', sans-serif;
+  font-size:.8em;
+}
+
+#about{
+    width: 90vw;
+    padding: 0 5vw;
+  margin-top:-5vw;
+  
+}
+
+/*.buttons2 {
+   display: flex;
+    height: 7vw;
+    width: 47vw;
+    padding: 7vh 21vw;
+    position: fixed;
+    font-size: 12px;
+    bottom: 2vh;
+
+} */
+
+
+/* Q U O T E S */
+
+#quote{
+  width:100vw;
+  height:100vh;
+  background:url("https://cdn.glitch.global/7fab02a8-640b-4599-a757-0e7da5a413b8/CivicLove_quoteBG.jpg?v=1692642670653");
+  background-size:cover;
+  font-weight:700;
+  padding-top: 4vw;
+  display:flex;
+  flex-direction:column;
+}
+
+.item{
+  flex:1;
+   align-items:center;
+}
+
+.item p{
+    width: 58vw;
+    margin: 0 auto;
+    font-size: 1.2em;
+}
+
+
+
+.quote1{
+/*   width: 46vw;
+  padding: 19vw 25vw 10vw 25vw;  
+  margin: 2vw; */
+  background:url("https://cdn.glitch.global/7fab02a8-640b-4599-a757-0e7da5a413b8/quotes_quoteBubble1.png?v=1692642916879");
+  background-size:contain;
+  background-repeat:no-repeat;
+  background-position:center;
+  color:#ff47b0;
+  font-size: .7em;
+  flex:2;
+
+}
+
+.quote2{
+/*   width: 44vw;
+  padding: 30vw 25vw 32vw 25vw;
+  margin: -15vw 2vw; */
+  background:url("https://cdn.glitch.global/7fab02a8-640b-4599-a757-0e7da5a413b8/quotes_quoteBubble2.png?v=1692642920579");
+  background-size:contain;
+  background-repeat:no-repeat;
+  background-position:center;
+  font-size: .7em;
+  color:#ff704a;
+  flex:2;
+  
+}
+
+.quote1 p {
+    padding: 16vh 0 0 4vw;
+}
+
+.quote2 p {
+    padding: 7vh 0 0 4vw;
+}
+
+#quote h3{
+  text-align:right;
+  font-family: 'Montserrat', sans-serif;
+  font-size:.6em;
+  color: #ba78cf;
+  width: 78vw;
+}
+
+/* .buttons3 {
+  display: flex;
+    height: 7vw;
+    width: 47vw;
+    padding: 7vh 21vw;
+    position: fixed;
+    bottom: 2vh;
+}
+ */
+
+/* H O W */
+  #how {
+  padding: 5vw;
+    width: 90vw;
+  }
+  
+  
+  #how h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #ff704a;
+  font-size:1.6em;
+    padding-top: 0vw;
+}
+
+#how p{
+  font-size:.8em;
+}
+
+
+/* Q U E S T I O N S */
+
+#all p{
+  width:90vw;
+  padding:15vw 5vw;
+}
+
+/* .buttons {
+  display: flex;
+  height: 9vw;
+  width: 47vw;
+  padding: 81vh 26.5vw;
+} */
+.next {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    width: 16vw;
+    height: 5vw;
+    padding: 2vw;
+    border-radius: 5vw;
+    background: #ff704a;
+    color: white;
+    border:1px solid white;
+}
+
+.back {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    width: 16vw;
+    height: 5vw;
+    padding: 2vw;
+    border-radius: 5vw;
+    background: #ff704a;
+    color: white;
+    margin: 0vh 15vw 0 0;
+    border:1px solid white;
+}
+
+
+span.num {
+    font-weight: 700;
+    color: #ff47b0;
+}
+
+
+.q p{
+  width: 80vw;
+  padding: 55vw 10vw 0vw 10vw;
+  font-size:1.4em;
+}
+
+.q {
+    margin-top: -5vw;
+  height:104vh;
+}
+
+/* E V A L */
+
+#eval{
+  margin-top:-5vw;  
+}
+
+#eval h1{
+  font-family: 'Montserrat', sans-serif;
+  color: #ff704a;
+  font-size:1.6em;
+  padding: 9vw 5vw 0 5vw;
+  margin-bottom: -1vh;
+  
+}
+
+#eval h2{
+  font-family: 'Montserrat', sans-serif;
+  color:#ff47b0;
+  font-size:1.1em;
+  padding: 2vw 5vw 0 5vw;
+  margin-bottom: -1vh;
+}
+
+#eval p{
+  padding: 0vw 5vw;
+  font-size:.8em;
+}
+
+.small{
+    font-size: .7em !important;
+    font-family: 'Montserrat';
+    line-height: 1.4;
+    margin-top: 4vh;
+    color: #ba78cf;
+}
+
+
+/* C O N T I B U T O R S */
+
+#contributors h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #ff704a;
+  font-size:1.6em;
+  padding-top: 42vw;
+  
+}
+
+#contributors h2 {
+  font-family: 'Montserrat', sans-serif;
+  color:#ff47b0;
+  font-size:1.1em;
+  padding: 5vh 5vw 0 5vw;
+  margin: 0vw;
+}
+
+#contributors p{
+  padding: 0 5vw;
+  font-size: .8em;
+}
+
+
+
+
+
+/* //////////  T A B L E T  ///////////// */
+
+@media screen and (min-width : 600px) {
+
+  .buttons{
+    bottom: 2vh;
+  }
+
+  
+  /* H O M E */
+  
+.logo {
+    padding-top: 8vw;
+    width: 70vw;
+  margin:0 auto;
+}
+  
+.logo img {
+   width:60vw;
+}
+
+#home h1 {
+    text-align: center;
+    width: 40vw;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    border-top: 1px solid;
+    margin: 6vh 30vw;
+}
+  
+  #home h2 {
+    text-align: center;
+    width: 20vw;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 1em;
+    margin: 2vw 38vw;
+    background: #ba78cf;
+    padding: 2vw;
+    border-radius: 5vw;
+}
+  
+  
+  
+/* A B O U T */
+  
+  #about {
+    width: 90vw;
+    padding: 0 5vw;
+    margin-top: -2vw;
+}
+  
+  #about h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #ff704a;
+    font-size: 1.6em;
+    padding-top: 18vw;
+}
+  
+  .back{
+    height: 3vw;
+  }
+  
+  .next{
+    height: 3vw;
+  }
+  
+  
+  
+/* Q U O T E */
+  #quote {
+    width: 100vw;
+    height: 100vh;
+    background: url(https://cdn.glitch.global/7fab02a8-640b-4599-a757-0e7da5a413b8/CivicLove_quoteBG.jpg?v=1692642670653);
+    background-size: cover;
+    font-weight: 700;
+    padding-top: 4vw;
+}
+  
+  .quote1 {
+/*     width: 51vw;
+    padding: 13vw 23vw 9vw 24vw;
+    margin: -2vw 0; */
+    background: url(https://cdn.glitch.global/7fab02a8-640b-4599-a757-0e7da5a413b8/quotes_quoteBubble1.png?v=1692642916879);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: .7em;
+    color: #ff47b0;
+}
+  
+.item h3 {
+    width: 26vw !important;
+    margin: 2vw auto;
+}
+  .item p{
+    width: 31vw;
+    margin: 0 auto;
+    font-size: 1.3em;
+  }
+  
+  .quote2 {
+/*     width: 33vw;
+    padding: 8vw 15vw 11vw 13vw;
+    margin: 5vw 17vw; */
+    background: url(https://cdn.glitch.global/7fab02a8-640b-4599-a757-0e7da5a413b8/quotes_quoteBubble2.png?v=1692642920579);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: .7em;
+    color: #ff704a;
+}
+  .quote1 p {
+    padding: 18vh 4vw 0 4vw;
+}
+  .quote2 p{
+    margin-top: 5vw;
+    padding: 0;
+/*     padding: 6vh 4vw 0 4vw; */
+  }
+  
+/*   .quote h3{
+    margin: 0 5vw 0 5vw;
+    width: 47vw !important;
+  } */
+  
+
+  
+  
+  /* H O W */
+   #how {
+  padding: 5vw;
+    width: 90vw;
+  }
+  
+  
+  #how h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #ff704a;
+  font-size:1.6em;
+}
+  
+/* Q U E S T I O N S */
+  .q {
+    margin-top: -4vw;
+}
+  
+  .q p {
+    width: 80vw;
+    padding: 35vw 10vw 0vw 10vw;
+    margin-bottom: -40vw;
+    font-size: 1.6em;
+}
+  
+/* E V A L */
+  
+  #eval h1{
+    padding: 18vw 5vw 0 5vw;
+  }
+
+/* C O N T R I B U T O R S */
+  
+  #contributors h2{
+    padding: 13vh 5vw 0 5vw;
+  }
+
+}
+
+
+/* //////////  D E S K T O P  ///////////// */
+
+@media screen and (min-width:900px) {
+  
+  .all{
+    background-size:100% !important;
+  }
+ 
+  .buttons{
+    transform: scale(.75);
+  }
+
+  .back, .next {
+    height: 2vw;
+    font-size: 1.2em;
+}
+
+/* H O M E */ 
+  .logo {
+    padding-top: 8vw;
+    width: 40vw;
+    margin: 0 auto;
+}
+  
+  .logo img {
+    width: 30vw;
+}
+  
+  #home h2{
+    width: 12vw;
+    margin: 2vw 42vw;
+  }
+  
+  .logoStack {
+    width: 50vw;
+    left: 25vw;
+    bottom: 0.5vh;
+}
+  
+/* A B O U T */
+  
+  #about h1{
+    font-size: 1.9em;
+    padding-top: 8vw;
+  }
+  
+  #about h2{
+    font-size: 1.5em;
+  }
+  
+  #about p{
+    font-size: 1.2em;
+  }
+  
+/* Q U O T E S */
+  
+  #quote{
+    flex-direction: row;
+     align-items:center;
+  }
+  
+  .quote1 {
+    margin-left:1vw;
+    height: 42vh;
+  }
+  
+  .quote2{
+    height: 54vh;
+  }
+  
+  .hide {
+    flex:0;
+}
+  
+  .item{
+    margin-top: -20vw !important;
+/*     padding: 7.6vw; */
+  }
+  
+  .item p{
+    font-size: 1.3em;
+  }
+  
+  .quote1 p {
+    padding: 20vh 4vw 0 6vw;
+  }
+  
+  .quote2 p{
+    margin-top: 2vw;
+    padding: 11vh 0 0 0;
+/*     padding: 50vh 9vw 0 9vw; */
+  }
+  
+/*   .qButtons{
+    bottom:20vh;
+  }
+   */
+/* H O W */
+  
+  #how h1{
+    font-size: 1.9em;
+    padding-top: 3vw;
+  }
+  
+  #how p{
+    font-size:1.2em;
+  }
+  
+/* Q U E S T I O N S */
+  
+  .q p{
+    width: 50vw;
+    padding: 42vh 25vw 0vw 25vw;
+  }
+  
+/* E V A L U A T I O N */
+  
+  #eval {
+    height:105vh;
+    
+  }
+  #eval h1{
+    font-size: 1.9em;
+    padding-top: 8vw;
+  }
+  
+  #eval h2{
+  font-size: 1.5em;  
+  }
+  
+  #eval p{
+    font-size: 1.2em;
+  }
+  
+  p.small {
+    font-size: .9em !important;
+    margin-top: 4vh !important;
+    height: 35vh;
+}
+  
+/* C O N T R I B U T O R S */
+  
+  .consultant {
+    flex: 1;
+    height: 128vh;
+}
+  
+  #contributors {
+    display: flex;
+}
+  
+  #contributors h2{
+    font-size:1.5em;
+  }
+  
+   #contributors p{
+    font-size:1.2em;
+    margin-bottom: -2vw;
+  }
+  
+  
+}
+
+
+/* X - L A R G E S C R E E N */
+
+@media screen and (min-width: 1600px){
+  
+  .back, .next {
+    height: 2.6vw;
+    font-size: 3em;
+}
+  
+  /* H O M E */
+  
+  .logo {
+    padding-top: 6vh;
+    width: 50vw;
+    margin: 0 auto;
+}
+  .logo img {
+    width: 40vw;
+}
+  
+  #home h1{
+    margin: 6vh 30vw 4vh 30vw;
+    font-size: 4em !important;
+    padding-top: 2vh;
+  }
+  
+  #home h2{
+    font-size: 2em;
+  }
+  
+  
+  /* A B O U T */
+
+  #about h1 {
+    font-size: 4.9em;
+    padding-top: 8vw;
+}
+  
+  #about h2 {
+    font-size: 3em;
+}
+  
+  #about p {
+    font-size: 2.4em;
+}
+  
+  
+/* Q U O T E S */
+  
+  .item p {
+    font-size: 2.6em;
+}
+  
+  #quote h3{
+    font-size: 2em;
+  }
+  
+
+/* H O W */
+  
+  #how h1{
+    font-size: 3em;
+  }
+  
+  #how p {
+    font-size: 2.4em;
+}
+  
+/* Q U E S T I O N S */
+  
+  .q p{
+    font-size: 3em;
+  }
+
+  
+/* E V A L */
+  
+    #eval h1{
+    font-size: 3em;
+  }
+   #eval h3{
+    font-size: 2em;
+  }
+  
+  #eval p {
+    font-size: 2.4em;
+}
+  
+/* C O N T R I B U T O R S */
+  
+  #contributors h1{
+    font-size: 3em;
+  }
+  
+    #contributors h3{
+    font-size: 2em;
+  }
+  
+  #contributors p {
+    font-size: 2.4em;
+}
+  
+  p.small{
+    font-size: 1.6em !important;
+  }
+
+}
