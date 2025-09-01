@@ -17,7 +17,7 @@ body{margin:0; background: #f6eff6;}
 .all{
   width:100vw;
   height:100vh;
-  background-image:url("https://cdn.glitch.global/7fab02a8-640b-4599-a757-0e7da5a413b8/CivicLove_Toolkit_bg.jpg?v=1692633423146");
+  background-image:url("CivicLove_Toolkit_bg.jpg");
   background-size:cover;
 }
 
